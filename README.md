@@ -12,7 +12,7 @@ This is a simple Node.js application that demonstrates how to stream online vide
 1. Clone the repository or download the source code:
 
    ```bash
-   git clone https://github.com/your-username/node-video-streaming.git
+   git clone https://github.com/shahajipatil22/video-streaming.git
 
 2. Navigate into the project directory:
 - cd node-video-streaming

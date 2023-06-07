@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 
 // Define the route to stream the video
 app.get('/video', (req, res) => {
-  const videoPath = path.join(process.cwd(), 'TypeORM-Crash-Course-TypeScript-and-Node-RM.mp4');
+  const videoPath = path.join(process.cwd(), 'path/to/your/video/file.mp4');
   const stat = fs.statSync(videoPath);
   const fileSize = stat.size;
   const range = req.headers.range;

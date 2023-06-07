@@ -2,13 +2,21 @@
   "name": "video-stream",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahajipatil22/video-streaming.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahajipatil22/video-streaming/issues"
+  },
+  "homepage": "https://github.com/shahajipatil22/video-streaming#readme",
   "dependencies": {
     "express": "^4.18.2"
   }

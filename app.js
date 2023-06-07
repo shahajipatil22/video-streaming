@@ -1,4 +1,3 @@
-const { log } = require('console');
 const express  = require('express');
 const fs = require('fs');
 const path = require('path');
@@ -46,6 +45,12 @@ console.log(head);
     res.writeHead(200, head);
     fs.createReadStream(videoPath).pipe(res);
   }
+});
+
+// Error handling middleware
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).render('error', { error: err.message });
 });
 
 // Start the server
